@@ -385,7 +385,7 @@ async def huggingface_inference_langchain(
     """
     LangChain client for HuggingFace Inference API.
 
-    Supports Serverless API, Inference Endpoints, and TGI servers via huggingface_hub.InferenceClient.
+    Supports Serverless API, Inference Endpoints, and TGI servers via `huggingface_hub.InferenceClient`.
     """
     import asyncio
     from collections.abc import Iterator
@@ -620,7 +620,7 @@ async def huggingface_inference_langchain(
                     ):
                         # Use captured loop instead of get_event_loop()
                         asyncio.run_coroutine_threadsafe(queue.put(chunk), loop)
-                except Exception as err:
+                except Exception as err:  # noqa: BLE001
                     # Propagate exception to async consumer
                     asyncio.run_coroutine_threadsafe(queue.put(err), loop)
                 finally:
