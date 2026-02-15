@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7912597c8ec3a2758218f1da2a0f78ba039d510cd4fe184151732b2bb4453b5d
-size 858
+[
+    {
+        "id": 1,
+        "question":
+            "Which city held the Olympics in the year represented by the bigger number of 1996 and 2004?",
+        "answer":
+            "athens"
+    },
+    {
+        "id": 2,
+        "question": "Which major war ended in the year obtained by dividing 5835 by 3?",
+        "answer": "world war ii"
+    },
+    {
+        "id": 3,
+        "question": "Which country hosted the FIFA World Cup in the year obtained by dividing 6054 by 3?",
+        "answer": "russia"
+    },
+    {
+        "id": 4,
+        "question": "Which renowned physicist was born in the year resulting from subtracting 21 from 1900?",
+        "answer": "albert einstein"
+    },
+    {
+        "id": 5,
+        "question": "Which city hosted the Summer Olympics in the year obtained by dividing 6024 by 3?",
+        "answer": "beijing"
+    }
+]
